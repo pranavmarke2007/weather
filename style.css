@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 60vh;
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+}
+.ins{
+    width: 25px;
+    height: 30px;
+    background-color: royalblue;
+}
