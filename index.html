@@ -4,21 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
     <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
 </head>
 
 <body>
+  
     <div class="box">
-        <div>
-        <input class="input" type="text" placeholder="search place">
-        <button class="btn">go</button>
+        <div class="inp">
+            <input class="input" type="text" placeholder="Enter City">
+            <button class="btn">🔍</button>
         </div>
-        <div class="temp"></div>
-        <div class="tempmax"></div>
-        <div class="tempmin"></div>
+<div class="weather">
+        <div class="temp">
+            <img src="" class="images">
+            <p class="temperature"></p>
+        </div>
+
+        <div class="hum_and_temp">
+            <div class="hum"><p class="humm"></p>
+                <p>Humidity</p>
+            </div>
+            <div class="maxmin">
+                <div class="max"><p class="maxx"></p>
+                    <p>Max</p>
+                </div>
+                <div class="min"><p class="minn"></p>
+                    <p>Min</p>
+                </div>
+            </div>
+
+        </div>
     </div>
-</body>
+</div>
 <script src="script.js"></script>
+</body>
 
 </html>
